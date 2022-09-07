@@ -12,13 +12,28 @@
 
   <h1>Регистрация</h1>
 
-  <form action="https://tests.fomenko.top/test1">
+  <form action="https://tests.fomenko.top/echo/index.php">
 
-    <input type="text">
-    <input type="text">
-    <input type="text">
-    <input type="submit">
-    <input type="reset">
+    <div>
+      <label for="email"> Твоя почта:</label>
+      <input required name="login" type="Email" id="email" placeholder="Почта">
+    </div>
+
+    <div>
+      <label for="password">Пароль:</label>
+      <input size="8" maxlength="8" minlength="4" required name="password" type="password" id="password"
+        placeholder="Пароль">
+    </div>
+
+    <div>
+      <label for="password">Подтверждение пароля:</label>
+      <input size="8" maxlength="8" minlength="4" required name="passwordConfirm" type="password" id="rpassword"
+        placeholder="Подтверждение пароля">
+    </div>
+
+    <div>
+      <button type="submit">Регистрация</button>
+    </div>
 
   </form>
 
