@@ -14,16 +14,19 @@
 
   <form action="https://tests.fomenko.top/echo/index.php">
     <div>
-      <label for="email"></label>
-      <input type="email">
+      <label for="email">Логин</label>
+      <input type="email" id="email" placeholder="Логин" required name="login">
     </div>
     <div>
-      <label for="password"></label>
-      <input type="password">
+      <label for="password">Пароль</label>
+      <input type="password" id="passworld" placeholder="Пароль" required name="password">
     </div>
     <div>
-      <label for=""></label>
-      <input type="text">
+      <label for="checkbox">Запомнить меня</label>
+      <input type="checkbox" required name="save_data">
+    </div>
+    <div>
+      <button type="submit">Войти</button>
     </div>
   </form>
 
