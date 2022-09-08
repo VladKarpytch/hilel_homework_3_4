@@ -49,6 +49,115 @@
       </select>
     </div>
     <div>
+      <label for="priceLow">Цена: от</label>
+      <input type="number" max="5000000" min="0" step="1" value="500" id="priceLow" required name="price">
+    </div>
+    <div>
+      <label for="priceMax">Цена:до
+      </label>
+      <input type="number" max="5000000" min="0" step="1" value="1500" id="priceMax">
+    </div>
+    <div>
+      <label for="yearMin">Год выпуска: от</label>
+      <select name="yearMin" id="yearMin">
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2010</option>
+        <option value="2020">2020</option>
+      </select>
+    </div>
+    <div>
+      <label for="yearMax">Год выпуска: до</label>
+      <select name="yearMax" id="yearMax">
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2010</option>
+        <option value="2020">2020</option>
+      </select>
+    </div>
+    <p>Состояние</p>
+    <div>
+      <div>
+        <label for="crash">Битая</label>
+        <input id="crash" name="crash" type="checkbox">
+
+        <label for="credit">В кредите</label>
+        <input id="credit" type="checkbox" name="credit">
+
+        <label for="uncleared">Нерастаможенная</label>
+        <input id="uncleared" type="checkbox" name="uncleared">
+      </div>
+      <div>
+        <label for="firstOwner">Первый владелец</label>
+        <input id="firstOwner" type="checkbox" name="firstOwner">
+
+        <label for="customsСleared">Растаможенная</label>
+        <input id="customsСleared" type="checkbox" name="customsСleared">
+
+        <label for="bargain">Торг</label>
+        <input id="bargain" type="checkbox" name="bargain">
+      </div>
+      <p>Топливо</p>
+      <div>
+        <label for="gaz">Газ</label>
+        <input type="checkbox" name="gaz" id="gaz">
+        <label for="dizel">Дизель</label>
+        <input type="checkbox" name="dizel" id="dizel">
+        <label for="gasoline">Бензин</label>
+        <input type="checkbox" name="gasoline" id="gasoline">
+        <label for="electro">Електро</label>
+        <input type="checkbox" name="electro" id="electro">
+      </div>
+      <div>
+        <p>Кпп</p>
+        <label for="mechanics">Механика</label>
+        <input type="checkbox" name="mechanics" id="mechanics">
+        <label for="machine">Автомат</label>
+        <input type="checkbox" name="machine" id="machine">
+        <label for="robot">Робот</label>
+        <input type="checkbox" name="robot" id="robot">
+      </div>
+      <div>
+        <label for="color">Цвет</label>
+        <input type="color" id="color" name="color" value="#e66465">
+      </div>
+
+    </div>
+
+
+    <div>
       <button type="submit">Поиск</button>
     </div>
   </form>
